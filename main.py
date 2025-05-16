@@ -42,6 +42,7 @@ def set_bg_image():
         /* === Inputs and File Uploaders in Sidebar === */
         section[data-testid="stSidebar"] input
             color: white !important;
+            background-color: black;
             border: 1px solid white !important;
         }
 
