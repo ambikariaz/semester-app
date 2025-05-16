@@ -58,7 +58,7 @@ def set_bg_image():
         /* === File uploader button and text === */
         section[data-testid="stSidebar"] .stFileUploader > div,
         section[data-testid="stSidebar"] .stFileUploader * {
-            color: white !important;
+            color: black !important;
             background-color:black !important;
         }
 
