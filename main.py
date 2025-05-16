@@ -30,52 +30,45 @@ def set_bg_image():
             color: black !important;
         }
 
-        /* === Sidebar Background: Navy Blue === */
+        /* === Sidebar Background and Text === */
         section[data-testid="stSidebar"] {
             background-color: #001f3f !important; /* Navy Blue */
         }
 
-        /* === Sidebar Text: White === */
         section[data-testid="stSidebar"] * {
             color: white !important;
         }
 
-        /* === Gemini API Input: Black Background === */
-        section[data-testid="stSidebar"] .stTextInput input {
+        /* === Inputs and File Uploaders in Sidebar === */
+        section[data-testid="stSidebar"] input {
             background-color: black !important;
             color: white !important;
             border: 1px solid white !important;
         }
 
-        /* === Eye icon for password field === */
         section[data-testid="stSidebar"] .stTextInput svg {
+            stroke: white !important;
             color: white !important;
-            stroke: black !important;
-            blackground-color: black;
+            background-color: black !important;
         }
 
-       
-        /* === File uploader button and text === */
         section[data-testid="stSidebar"] .stFileUploader > div,
         section[data-testid="stSidebar"] .stFileUploader * {
-            color: black !important;
-            background-color:black !important;
+            background-color: black !important;
+            color: white !important;
         }
 
-        /* === File Uploader Button === */
         section[data-testid="stSidebar"] .stFileUploader button {
             background-color: #1a3c66 !important;
             color: white !important;
-            border: none!important;
+            border: none !important;
         }
 
-        /* === Other Sidebar Inputs (Checkbox, Selectbox) === */
         section[data-testid="stSidebar"] .stSelectbox div,
         section[data-testid="stSidebar"] .stSelectbox label,
         section[data-testid="stSidebar"] .stCheckbox,
         section[data-testid="stSidebar"] .stCheckbox label {
             color: white !important;
-            
         }
 
         /* === General Button Styling === */
@@ -119,7 +112,7 @@ def set_bg_image():
             white-space: pre-wrap;
         }
 
-        /* === Light Mode Fix === */
+        /* === Light Mode Fix: Keep Sidebar Dark === */
         @media (prefers-color-scheme: light) {
             section[data-testid="stSidebar"] {
                 background-color: #001f3f !important;
@@ -132,7 +125,6 @@ def set_bg_image():
         """,
         unsafe_allow_html=True
     )
-
 
 set_bg_image()
 
