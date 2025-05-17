@@ -66,7 +66,7 @@ def set_bg_image():
         section[data-testid="stSidebar"] .stFileUploader > div,
         section[data-testid="stSidebar"] .stFileUploader * {
             background-color: transparent !important;
-            color: white !important;
+            color: blue !important;
             border: none !important;
         }
         section[data-testid="stSidebar"] .stFileUploader button {
