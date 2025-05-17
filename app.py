@@ -45,7 +45,6 @@ def set_bg_image():
         }
         /* Inner input: transparent background, no border */
         section[data-testid="stSidebar"] .stTextInput input {
-            background-color: transparent !important;
             color: blue !important;
             border: none !important;
             padding: 4px 8px;
@@ -65,13 +64,12 @@ def set_bg_image():
         /* Inner uploader: transparent background, no border */
         section[data-testid="stSidebar"] .stFileUploader > div,
         section[data-testid="stSidebar"] .stFileUploader * {
-            background-color: transparent !important;
             color: blue !important;
             border: none !important;
         }
         section[data-testid="stSidebar"] .stFileUploader button {
             background-color: #1a3c66 !important;
-            color: white !important;
+            color: blue !important;
             border: none !important;
             border-radius: 4px;
         }
