@@ -57,8 +57,8 @@ def set_bg_image():
         section[data-testid="stSidebar"] .stFileUploader,
         section[data-testid="stSidebar"] .stFileUploader > div,
         section[data-testid="stSidebar"] .stFileUploader * {
-            background-color: purple !important;
-            color: black !important;
+            background-color: black !important;
+            color: white !important;
             border: none !important;
         }
         section[data-testid="stSidebar"] .stFileUploader {
